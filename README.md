@@ -26,9 +26,9 @@ console.log(copyArr);
 
 // for object
 const user = {
-    name: 'Shabaz Mahamood',
-    age: 22,
-    role: 'Full Stack Developer',
+  name: "Shah Rabbi HAsan Foyej",
+  age: 23,
+  role: "Full Stack Developer",
 };
 
 const copyObj = { ...user };
@@ -70,12 +70,12 @@ An arrow function is a shorter and modern ES6 way to write a function in javascr
 ```js
 // before ES6
 function addToNum(num1, num2) {
-    return num1 + num2;
+  return num1 + num2;
 }
 
 // after ES6
 const addToNum = (num1, num2) => {
-    return num1 + num2;
+  return num1 + num2;
 };
 
 // more shorter
@@ -91,8 +91,8 @@ Template literals is a spacial type of string used in javascrpt, for using we us
 ### Example:
 
 ```js
-const name = 'Shabaz Mahamood';
-const role = 'Full-Stack developer';
+const name = "Shah Rabbi Hasan Foyej";
+const role = "Full-Stack developer";
 
 const text = `My name is ${name} and I am a ${role}`;
 
